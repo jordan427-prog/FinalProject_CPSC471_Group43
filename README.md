@@ -6,3 +6,5 @@ Project created and completed by Jared Lundy, Jordan Lundy & Yuhao Guang.
 ## Note on the folder structure:
 folder webapp contains all source code for the front-end (HTML, CSS, JSPs) <br>
 folder java/servepack contains all source code for the back-end (Java Servlets, Java Methods and Java user classes with mySQL connections)
+<br> webapp/WEB-INF/lib/ contains the mysql jdbc connector JAR file 
+<br> webapp/META-INF/ contains the Eclipse-generated manifest file
