@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Select View Prescribe</title>
+<link rel="stylesheet" href = "HomeStyle.css">
+</head>
+<body>
+<div class="header">
+Select Patient ID to View Prescriptions
+
+</div>
+
+<center>
+<b>Instructions: Enter Patient First Name and Last Name to view prescriptions <i>YOU</i>have made to that patient</b>
+
+<br><br>
+<i>Confidentiality Statement:</i>
+<br>
+Patients are selected regarding their patient ID, a confidential tracker number, rather than their name.
+This is for patient confidentiality and protection.
+Additionally, only prescriptions that have been prescribed to <i>that person</i> by <i>You</i> will be displayed.
+
+
+</center>
+
+
+<form method=get action=DocViewPrescribes>
+
+<label>Enter Patient First Name: </label>
+<input type=text placeholder="FirstName" name=FNameReq required>
+<br>
+<label>Enter Patient Last Name: </label>
+<input type=text placeholder="LastName" name=LNameReq required>
+<br>
+<input type=submit value="Submit">
+
+</form>
+
+</body>
+</html>

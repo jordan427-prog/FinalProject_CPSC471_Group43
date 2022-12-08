@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert History for a Patient</title>
+<link rel="stylesheet" href = "HomeStyle.css">
+</head>
+<body>
+<center>
+<i>Instructions: Enter patient first name, last name, and any history to add.
+Note: patients with no pre-existing history will have the entered information as their First Record, 
+whereas pre-existing records will have the entry added on to preserve the historical accuracy/integrity of your records
+</i>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+<form method=get action=DocInsertHist>
+<label>Enter Patient First Name: </label> 
+<input type=text placeholder="FirstName" name=Fnameinsert required>
+<label>Enter Patient Last Name: </label> 
+<input type=text placeholder="LastName" name=Lnameinsert required>
+<label>Enter History to Insert: </label> 
+<input type=text placeholder="History" name=history required>
+<input type=submit value="Submit">
+
+</center>
+
+
+	
+</form>
+
+<a href="DocHome.jsp">HomePage</a><br>
+
+
+</body>
+</html>

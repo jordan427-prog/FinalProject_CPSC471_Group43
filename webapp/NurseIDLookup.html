@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ID Matcher</title>
+<link rel="stylesheet" href = "HomeStyle.css">
+</head>
+<body>
+<div class="header">
+Nurse ID Search
+</div>
+<center>
+<i>Instructions: Enter first name and last name of nurse to retrieve their ID #</i>
+</center>
+
+<form method=get action=NurseIDLookupServ>
+<label>Enter Nurse First Name:</label> 
+<input type=text placeholder="FirstName" name=NFN required>
+<br>
+<label>Enter Nurse Last Name: </label> 
+<input type=text placeholder="LastName" name=NLN required>
+<br>
+<input type=submit value="Submit">
+</form>
+
+<a href="DocHome.jsp">Return Home</a>
+</body>
+</html>

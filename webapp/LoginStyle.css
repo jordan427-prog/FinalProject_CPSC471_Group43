@@ -1,0 +1,31 @@
+
+
+@charset "ISO-8859-1";
+
+.header{
+	background-color: #C8AE7E;
+	font-style: palatino;
+	text-align: center;
+	color: white;
+	font: bold;
+    font-size: xx-large;
+  
+    padding: 20px;
+}
+
+
+
+
+
+body{
+	background-color: #D2BD96;
+	
+	 font-style: palatino;
+    font: bold;
+    font-size: xx-large;
+    text-align: center;
+    font-size: large;
+    
+    
+}
+

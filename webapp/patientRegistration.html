@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href = "LoginStyle.css">
+<title>Registration for Pharmacist </title>
+</head>
+
+<div class="header">
+	Patient Registration
+</div>
+
+Please fill in all fields <b>accurately</b> below:<br>
+
+<body>
+
+<!-- Note: could fwd to single servlet everytime
+	and simply use if(session.role...) to differentiate
+ -->
+<form method=get action=RegPatServ>
+<label>Enter ID:</label> 
+<input type=text placeholder="ID" name=id required>
+<br>
+<label>Enter FirstName:</label> 
+<input type=text placeholder="FirstName" name=FName required>
+<br>
+<label>Enter LastName:</label> 
+<input type=text placeholder="LastName" name=LName required>
+<br>
+<label>Enter Username:</label> 
+<input type=text placeholder="Username" name=user required>
+<br>
+<label>Enter Password: </label>
+<input type=password placeholder="Password" name=password required>
+<br>
+<label>Enter Phone: </label>
+<input type=text placeholder="Phone" name=phone required>
+<br>
+<label>Enter Email: </label>
+<input type=text placeholder="Email" name=email required>
+<br>
+<label>
+Gender:
+</label>
+<select name="Gender">
+<option>Male</option>
+<option>Female</option>
+<option>Non-Binary</option>
+
+</select>
+<br>
+<label>Enter Date of Birth: </label>
+<input type=text placeholder="MM/DD/YYYY" name=dob required>
+<br>
+
+<label>
+Are you Admitted or an Outpatient:
+</label>
+<select name="Type">
+<option>Admitted</option>
+<option>Outpatient</option>
+
+</select>
+<br>
+<!--  
+//new as of 11-16:
+<label>
+Select your Role:
+</label>
+<select name="Role">
+<option>Doctor</option>
+<option>Nurse</option>
+<option>Pharmacist</option>
+<option>Patient</option>
+</select>
+<br> -->
+<input type=submit value="Submit">
+
+
+
+
+
+</form>
+
+</body>
+
+<footer>
+<br><br><br><br>
+        <a href="HomePage.html"><button>Back To Home</button></a> 
+
+</footer>
+
+</html>
