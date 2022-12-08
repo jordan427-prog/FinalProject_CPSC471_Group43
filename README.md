@@ -1,7 +1,7 @@
 # FinalProject_CPSC471_Group43
 Group 43 (Jared Lundy, Jordan Lundy, Yuhao Guang) Final Project for Cpsc 471.
 
-Project created and completed by Jared Lundy, Jordan Lundy & Yuhao Guang.
+Project and all code created and completed by Jared Lundy, Jordan Lundy & Yuhao Guang.
 
 ## Note on the folder structure:
 <b>folder webapp contains all source code for the front-end (HTML, CSS, JSPs) <br>
