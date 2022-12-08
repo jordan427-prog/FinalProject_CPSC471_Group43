@@ -11,3 +11,6 @@ folder java/servepack contains all source code for the back-end (Java Servlets, 
 
 ## Note on environment:
 Created on Eclipse with Java Dynamic Webpage plugins installed. Uses mySQL and the JDBC mySQL Connectivity for database functionality. Runs on localhost(port 8080) on microsoft edge, using an Apache Tomcat v9.0 server
+
+## Starting/Running
+To run, simply run Homepage.html on server (found in webapp folder)
